@@ -6,7 +6,7 @@ public class PrintOutPrimes {
     System.out.println("Primes Printer!");
     System.out.println("Please Enter number that max printed out prime must be smaller than");
     System.out.print("Number : ");
-    int n = Math.abs(scanner.nextInt());
+    long n = scanner.nextLong();
     int i;
       if (n<2) System.out.println("None");
       else if (n<4)
